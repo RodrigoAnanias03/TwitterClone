@@ -6,7 +6,7 @@ class db {
 	private $host = 'localhost';
 
 	//usuario
-	private $usuario = 'root';
+	private $usuario = 'root'; 
 
 	//senha
 	private $senha = '';
