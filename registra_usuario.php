@@ -29,7 +29,7 @@
 	$sql = " select * from usuarios where email = '$email' ";
 	if($resultado_id = mysqli_query($link, $sql)) {
 
-		$dados_usuario = mysqli_fetch_array($resultado_id);
+		$dados_usuario = mysqli_fetch_array($resultado_id); 
 
 		if(isset($dados_usuario['email'])){
 			$email_existe = true;
